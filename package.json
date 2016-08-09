@@ -1,0 +1,18 @@
+{
+  "name": "cleanupbot",
+  "version": "0.0.1",
+  "description": "Slack bot for cleaning",
+  "main": "cleanupbot.js",
+  "scripts": {
+    "start": "node cleanupbot.js"
+  },
+  "author": "Michelle Wilson",
+  "license": "UBC",
+  "dependencies": {
+    "botkit": "^0.0.5",
+    "redis": "*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
